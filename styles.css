@@ -1,0 +1,76 @@
+body
+{
+    background-color: rgb(10, 0, 0); 
+    font-family: monospace;
+}
+p
+{
+    color: white;
+    font-size: 15px; 
+    max-width: 350px ;
+}
+h1 , h2
+{
+    color:rgb(255, 200, 200);
+    margin-bottom: 30px; 
+}
+span
+{
+    color:rgb(255, 200, 200);
+    font-size: 20px;
+    font-weight: bold;
+}
+.container
+{
+    margin: 50px; 
+}
+.content
+{
+    float : left;
+    width: auto;
+}
+
+button
+{
+    background-color: rgba(0,0,0,0); 
+    color: rgb(255, 200, 200); 
+    border: 1px solid rgb(255,200,200); 
+    width: 300px ; 
+    height: 40px ; 
+    border-radius: 10px;
+}
+button:hover
+{
+    background-color: rgba(163, 163, 163, 0.5); 
+}
+div 
+{
+    margin-bottom: 20px; 
+}
+.buttons
+{
+    padding: 0px 0px 150px 0px;
+    border-left: 2px solid rgb(182, 181, 181);
+    width: 500px; 
+    text-align: center;
+    float: right;
+}
+#riddle-answer-button
+{
+    border:none ;
+    text-decoration: underline;
+}
+#riddle-answer-button:hover
+{
+    color: white;
+    background-color: rgba(0,0,0,0);
+}
+#riddle-answer-button:active
+{
+    border: 1px solid rgb(255,200,200); 
+}
+#riddleAnswer
+{
+    color: gray; 
+    font-style: italic;
+}

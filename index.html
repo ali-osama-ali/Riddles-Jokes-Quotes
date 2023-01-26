@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Click Me</title>
+    <meta name="description" content="Some Jokes with some Wisdom"> 
+    <meta name="author" content="Ali Osama">
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <h1>Output</h1>
+            <span>Programmer Meme</span><br>
+            <img id="meme">
+            <h2>Tell Me Something Funny!</h2>
+            <p id="joke"></p>
+            <h2>Give Me Some Wisdom....</h2>
+            <p id="quote"></p>
+            <h2>I want a riddle!</h2>
+            <p id="riddle"></p>
+            <p id="riddleAnswer"></p>
+        </div>
+        <div class="buttons">
+            <h1>Actions</h1>
+            <div>
+                <button onclick="showMeme()">Show a Meme</button>
+            </div>
+            <div>
+                <button onclick="showJoke()">Tell Me a Joke</button>
+            </div>
+            <div>
+                <button onclick="showQuote()">Random Quote</button>
+            </div>
+            <div>
+                <button onclick="showRiddle()">Riddle Me</button>
+            </div>
+            <div>
+                <button id="riddle-answer-button" onclick="showRiddleAnswer()">Reveal Riddle Answer</button>
+            </div>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
